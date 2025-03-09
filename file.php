@@ -12,7 +12,7 @@
     <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $name = isset($_POST['name']) ? $_POST['name'] : 'Not provided';
-            $age = isset($_POST['age']) ? $_POST['age'] : 'Not provided';
+            $id = isset($_POST['id']) ? $_POST['id'] : 'Not provided';
             $email = isset($_POST['email']) ? $_POST['email'] : 'Not provided';
 
             $q1 = isset($_POST['q1']) ? $_POST['q1'] : 'Not answered';
@@ -26,7 +26,7 @@
             echo "<div class='flex flex-col items-center'>";
             echo "<img src='https://us.123rf.com/450wm/aksanamoon/aksanamoon1905/aksanamoon190500010/124715671-quiz-interesting-color-vector-illustration-on-white-background.jpg?ver=6' class='w-48 mb-6 rounded-lg shadow-lg'>";
             echo "<h3 class='text-2xl font-semibold'>$name</h3>";
-            echo "<h3 class='text-xl'>$age years old</h3>";
+            echo "<h3 class='text-xl'>$id</h3>";
             echo "<h3 class='text-xl mb-6'>$email</h3>";
             echo "</div>";
             echo "<hr class='border-gray-600 my-6'>";

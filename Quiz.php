@@ -18,7 +18,7 @@
             </div>
             <div>
                 <label class="block text-lg font-semibold"> Registration Number:</label>
-                <input type="number" name="age" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <input type="number" name="id" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
             <div>
                 <label class="block text-lg font-semibold">Email:</label>
